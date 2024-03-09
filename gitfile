@@ -1,0 +1,28 @@
+# Create a new directory for your Git repository
+mkdir YourRepo
+cd YourRepo
+
+# Initialize a new Git repository
+git init
+
+# Create a simple Python script
+echo "print('Hello, World!')" > hello.py
+
+# Add the script to the staging area
+git add hello.py
+
+# Commit the changes
+git commit -m "Initial commit - Add hello.py"
+
+# Create a new branch for your issue
+git checkout -b issue-1
+
+cho "print('Git is awesome!')" > hello.py
+
+# Add the changes to the staging area
+git add hello.py
+
+# Commit the changes
+git commit -m "Fix issue-1: Update hello.py message
+
+git push origin issue-1
